@@ -99,7 +99,7 @@ export const popularProducts = [
 
     {
         id: 1,
-        img:"https://ik.imagekit.io/bja2qwwdjjy/prod_P24-_pPsZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652310557249",
+        img:"https://ik.imagekit.io/bja2qwwdjjy/Dial_a_drink/pexels-%D0%B0%D0%BB%D0%B5%D0%BA%D0%BA%D0%B5-%D0%B1%D0%BB%D0%B0%D0%B6%D0%B8%D0%BD-8240999_6AuEXeEBH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655903787538",
         
     },
     {
@@ -127,6 +127,6 @@ export const popularProducts = [
         img:"https://ik.imagekit.io/bja2qwwdjjy/prod_P24-_pPsZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652310557249",
         
     },
-
+   
    
 ];

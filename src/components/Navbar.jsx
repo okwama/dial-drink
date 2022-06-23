@@ -29,9 +29,11 @@ display: flex;
 align-items: center;
 margin-left: 25px;
 padding: 5px;
+
 `
 const Input = styled.input`
 border: none;
+flex:8;
 `;
 
 const Center = styled.div`
