@@ -8,7 +8,7 @@ height: 100vh;
 background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)
 ), url("https://ik.imagekit.io/bja2qwwdjjy/dylan-de-jonge-pe9T4ROjpzQ-unsplash_mbFu2B96K.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657970481389")
 center;
-
+background-size: cover;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -45,7 +45,16 @@ font-size: 12px;
 margin: 20px 0px;
 `;
 
-const Button = styled.button ``;
+const Button = styled.button `
+width: 80px;
+border:none;
+padding: 15px 20px;
+background-color: teal;
+color: white;
+cursor: pointer;
+
+
+`;
 
 const Register = () => {
   return (
