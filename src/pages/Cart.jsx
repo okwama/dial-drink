@@ -45,17 +45,44 @@ flex:3 ;
 `;
 
 
-const Product = styled.div``;
-const ProductDetail = styled.div``;
-const Image = styled.img``;
-const Details = styled.div``;
+const Product = styled.div`
+display: flex;
+justify-content:space-between;
+`;
+const ProductDetail = styled.div`
+flex:2;
+display: flex;
+`;
+
+
+const Image = styled.img`
+width: 300px;
+display: flex;
+
+
+`;
+
+const Details = styled.div`
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+`;
+
 const ProductName = styled.span``;
+
 const ProductId = styled.span``;
+
 const ProductSize = styled.span``;
-const PriceDetail = styled.div``;
+
+const PriceDetail = styled.div`
+
+flex:1;
+`;
 
 const Summary = styled.div`
 flex:1;
+
 background-color: ;
 
 `;
