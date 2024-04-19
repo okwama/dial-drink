@@ -6,7 +6,7 @@ const Container = styled.div`
 width: 100vw;
 height: 100vh;
 background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)
-), url("https://ik.imagekit.io/bja2qwwdjjy/dylan-de-jonge-pe9T4ROjpzQ-unsplash_mbFu2B96K.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657970481389")
+), url ("https://ik.imagekit.io/bja2qwwdjjy/dylan-de-jonge-pe9T4ROjpzQ-unsplash_mbFu2B96K.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657970481389")
 center;
 background-size: cover;
 
