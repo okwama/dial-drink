@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { mobile } from "../responsive";
 
 
 
@@ -21,6 +22,8 @@ const Wrapper = styled.div`
 width: 25%;
 padding: 20px;
 background-color: white;
+${mobile({ width: "75%" })}
+
 
 `;
 
@@ -32,6 +35,8 @@ flex-direction: column;
 const Title = styled.h1`
 font-size: 24px;
 font-weight: 300;
+${mobile({ justifyContent: "center" })}
+
 `;
 
 const Input = styled.input `
@@ -51,6 +56,8 @@ background-color: teal;
 color: white;
 cursor: pointer;
 margin-bottom: 10px;
+${mobile({flex:1 , justifyContent: "center" })}
+
 `;
 
 const Link = styled.a`

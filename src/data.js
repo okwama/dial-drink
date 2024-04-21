@@ -75,7 +75,7 @@ export const categories = [
     {
         id:11,
         img:"https://ik.imagekit.io/bja2qwwdjjy/beercat_W9kK1HzJC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652303132687",
-        title:"Liqueur",
+        title:"Liquor",
     },
     {
         id:12,

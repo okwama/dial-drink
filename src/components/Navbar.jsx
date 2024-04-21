@@ -38,7 +38,7 @@ padding: 5px;
 const Input = styled.input`
 border: none;
 flex:8;
-${mobile({ Width: "50px" })}
+${mobile({ Width: "40px" })}
 `;
 
 const Center = styled.div`
@@ -48,6 +48,7 @@ text-align: center;
 
 const Logo = styled.h1`
 font-weight:bold;
+${mobile({ fontSize: "20px" })}
 `
 
 const Right = styled.div`
@@ -55,7 +56,7 @@ flex: 1;
 display: flex;
 align-items: center;
 justify-content: flex-end;
-${mobile({ flex: 2, justifyContent: "center" })}
+${mobile({ flex:2,justifyContent: "center" })}
 `;
 
 const MenuItem = styled.div`
@@ -72,7 +73,7 @@ const Navbar = () => {
         <Left>
             <Language>EN</Language>
             <SearchContainer>
-                <Input/>
+                <Input placeholder='Search'/>
                <Search style={{color:"gray", fontSize:16}}/>
             </SearchContainer>
         </Left>
